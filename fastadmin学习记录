@@ -1,0 +1,17 @@
+1、	$this->request->get('url','Index/index');
+	get()方法有默认值，
+	public function get($name = '', $default = null, $filter = '')
+
+2、	__() 转换为中文
+
+3、	$background = cdnurl("/assets/img/loginbg.jpg");
+	cdnurl();获取CDN的地址
+	所有地址都用cdnurl()处理一遍
+
+4、	Cookie::get() 获取cookie值
+
+static::get();
+AOP编程 切面
+变量的引用
+
+\think\Hook::listen("login_init", $this->request); 项目中没有login_init标签
